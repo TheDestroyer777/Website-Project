@@ -150,7 +150,7 @@ nav input[type=text] {
 
 .Image {
     width: 500px;
-    margin: 25px 100px;
+    margin: 15px 100px;
     float: right;
 }
 
@@ -283,7 +283,7 @@ nav input[type=text] {
         background-color: lightgrey;
     }
     nav {
-        width: 102.8vw;
+        width: 102.06vw;
     }
     main {
         margin: 0px 75px;
