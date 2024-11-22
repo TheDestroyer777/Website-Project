@@ -13,6 +13,7 @@ body {
     font-family: Courier New;
     background-color: #69A2B0;
     color: black;
+    overflow-x: hidden;
 } 
 
 
@@ -283,7 +284,7 @@ nav input[type=text] {
         background-color: lightgrey;
     }
     nav {
-        width: 102.06vw;
+        width: 103vw;
     }
     main {
         margin: 0px 75px;
