@@ -11,12 +11,20 @@
     <body>
         <nav>
             <ul>
-                <li class = "Balk"><a href = "home.html">Home</a></li>
+                <li class = "Balk"><a a href="home.html">Home</a></li>
                 <li class = "Balk"><a href = "steam.html">Steam</a></li> 
                 <li class = "Balk"><a href = "manualControls.html">Controls</a></li>
                 <li class = "Balk"><a href = "cameraLive-Feed.html">Camera</a></li>
                 <li class = "Balk"><a href = "weather.html">Weather</a></li>
-                <li class = "Balk"><a href = "makingOf.html">Making of</a></li>
+                    <div class="dropdown">
+                        <button id="BALK">Making of</button>
+                        <div class="dropdown-content">
+                          <a href="#">Video</a>
+                          <a href="#">Poster</a>
+                          <a href="#">Logbook</a>
+                          <a href="#">FAQ</a>
+                        </div>
+                    </div>
                 <li id="zoekbalk">
                     <input type="text" placeholder="Search">
                 </li>   
@@ -25,6 +33,15 @@
         
           <main>    
               
+            <h1 class = "Titel"><ul>Information:</ul></h1>
+            <p class = "Text">The STEAM Ohm Contest is the opportunity for young people to show their creativity and innovative ideas. This unique competition challenges young people
+            to work on a project or experiment within one of six current themes during the school year. The highlight of the contest is the final day on May 15, 2025, on which
+            the teams present their experiments or projects to an expert jury.</p>
+
+            <img class = "Image" src="Images/Foto STEAM Ohm Contest.webp" alt="Foto STEAM Omh Contest">
+            
+            <p class="Text" id="text">For more information you can go to the <a href="https://www.steamcontest.com/" target="_blank"> official website.</a></p>
+
             <h1 class = "Titel"><ul>About us:</ul></h1>
             <p class="Text">We are a group of students from the SHD. We are making a website that we will use for one of our projects from Steam-Ohm contest.</p>
               
