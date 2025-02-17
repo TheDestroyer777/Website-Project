@@ -161,6 +161,23 @@ nav input[type=text] {
 li::marker { 
     content: "";
 }
+
+.search-button {
+    background-color: transparent;
+    /*border-style: none;*/
+    border-radius: 15px;
+    position: absolute;
+    margin-left: 18.3%;
+    margin-top: 10px;
+    width: 5%;
+    background-color: lightgray;
+    border-color: black;
+    border-width: 2.5px;
+}
+.search-icon {
+    height: 40px;
+    margin: -10px;
+}
 /*EINDE NAVIGATIEBALK*/
 
 /*BEGIN MAIN*/
@@ -223,6 +240,7 @@ li::marker {
     min-width: 175px;
     box-shadow: 10px 10px 5px gray;
     margin-top: 50px;
+    z-index: 1; /*ervoor zorgen dat je de dropdown-content ook kan openen wanneer er geen text op de pagina staat*/
   }
   
   /* Links inside the dropdown */
@@ -241,20 +259,6 @@ li::marker {
   .dropdown:hover .dropdown-content {display: block;}
 
 /*einde test*/
-
-.search-button {
-    background-color: transparent;
-    /*border-style: none;*/
-    border-radius: 100px 100px 100px 100px;
-    
-    
-}
-.search-icon {
-    height: 64px;
-    width: 64px;
-    border: 1px;
-    margin: -10px;
-}
 
 @media only screen and (max-width: 600px) {
     body {
@@ -300,6 +304,11 @@ li::marker {
         margin-right: 5%;
         font-size: 17px;
         width:90%;
+    }
+    .search-button {
+        margin-left: 225px;
+        margin-top: 10px;
+        width: 60px;
     }
     main {
         width: 600px;
@@ -372,6 +381,11 @@ li::marker {
         width:90%;
         height: 30px;
         border-radius: 30px;
+    }
+    .search-button {
+        margin-left: 36.6%;
+        margin-top: 16px;
+        width: 10%;
     }
     .Text {
         text-align: center;
