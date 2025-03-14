@@ -192,20 +192,28 @@ li::marker {
       flex-direction: column;
     }
     nav {
-        width: 650px;
-        height: 130px;
+        width: 116%;
+        height: 190px;
     }
     .Balk {
-        width: 136px;
+        width: 30%;
     }
     .Balk a {
         text-align: center;
-        width: 126px;
+        width: 100%;
+        font-size: medium;
+    }
+    .dropdown {
+        width: 30%;
+    }
+    #BALK {
+        width: 100%;
+        font-size: medium;
     }
     .dropdown-content {
         box-shadow: 10px 10px 5px lightskyblue;
         min-width: 0px;
-        width: 136px;
+        width: 30%;
     }
     .dropdown-content a:hover {
         height: 50px;
@@ -215,8 +223,8 @@ li::marker {
         box-shadow: 10px 10px 5px lightskyblue;
       }
     #zoekbalk {
-        width: 50%;
-        float: right;
+        width: 75%;
+        float: left;
         margin-right: 2%;
         margin-left: 2%;
     }
@@ -230,21 +238,23 @@ li::marker {
         width:90%;
     }
     .search-button {
-        margin-left: 225px;
+        margin-left: 75%;
         width: 60px;
     }
     main {
-        width: 600px;
+        width: 100%;
     }
     .Text {
         text-align: center;
         font-size: medium;
     }
     .Image {
+        width: 90%;
+        margin-left: 5%;
         float: left;
     }
     footer {
-        width: 600px;
+        width: 100%;
         position: relative;
         display: flex;
         flex-direction: column;
