@@ -26,8 +26,8 @@
                     </div>
                 </li>
                 <li id="zoekbalk">
-                    <input type="text" placeholder="Search" id="searchInput" class="search-input" onkeyup="searchItems()">
-                        <button class="search-button">
+                    <input type="text" placeholder="Search" onkeypress="ChangePageEnter()">
+                        <button class="search-button" onclick="ChangePage()">
                             <img src="Images/search-bar-icon-png-16.jpg" alt="Fout" class="search-icon"/>
                         </button>
                     </input>
@@ -35,8 +35,8 @@
             </ul>
         </nav>
         
-          <main>    
-              
+          <main>
+            
             <h1 class = "Titel"><ul>Information:</ul></h1>
             <p class = "Text">The STEAM Ohm Contest is the opportunity for young people to show their creativity and innovative ideas. This unique competition challenges young people
             to work on a project or experiment within one of six current themes during the school year. The highlight of the contest is the final day on May 15, 2025, on which
@@ -54,6 +54,7 @@
           </main>
         <footer>Physics Innovators &copy; 2025</footer>
 
+        <script src="script.js"></script>
     </body>
     
 </html>
