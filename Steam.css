@@ -15,6 +15,9 @@ body {
     color: black;
     overflow-x: hidden;
 } 
+::-webkit-scrollbar { /*scrollbar wegdoen maar wel nog kunnen scrollen*/
+    display: none;
+}
 
 /*NAVIGATIEBALK*/
 nav {
@@ -443,7 +446,7 @@ li::marker {
 
 @media only screen and (min-width: 1440px) {
     body {
-        background-color: firebrick;
+        background-color: #a9b4c2;
         margin-left: 0px;
     }
     nav {
@@ -476,14 +479,14 @@ li::marker {
         width: 12.35%;
         margin-top: 65px;
         min-width: 0px;
-        box-shadow: 10px 10px 5px firebrick;
+        box-shadow: 10px 10px 5px #66788F;
     }
     .dropdown-content a:hover {
         height: 75px;
         width: 105%;
         margin-left: -10%;
-        font-size: xx-large;
-        box-shadow: 10px 10px 5px firebrick;
+        font-size: 3vw;
+        box-shadow: 10px 10px 5px #66788F;
     }
     #zoekbalk {
         padding-top: 10px;
