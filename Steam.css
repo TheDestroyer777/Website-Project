@@ -11,9 +11,10 @@ footer {
 
 body {
     font-family: Courier New;
-    background-color: #69A2B0;
+    background-color: lightgrey;
     color: black;
     overflow-x: hidden;
+    margin-left: 0px;
 } 
 
 ::-webkit-scrollbar { /*scrollbar wegdoen maar wel nog kunnen scrollen*/
@@ -22,10 +23,9 @@ body {
 
 /*NAVIGATIEBALK*/
 nav {
-    width: 104%;
+    width: 100vw;
     background: #02182B;
-    height: 50px;
-    margin-left: -40px;
+    margin-left: 0px;
     margin-top: -18px;
 }
 
@@ -104,7 +104,7 @@ nav {
     position: absolute;
     background-color: #f1f1f1;
     min-width: 175px;
-    box-shadow: 10px 10px 5px gray;
+    box-shadow: 10px 10px 5px grey;
     margin-top: 40px;
     z-index: 1; /*ervoor zorgen dat je de dropdown-content ook kan openen wanneer er geen text op de pagina staat*/
   }
@@ -119,7 +119,10 @@ nav {
   }
   
   /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
+  .dropdown-content a:hover {
+    background-color: #ddd;
+    box-shadow: 10px 10px 5px grey;
+}
   
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content {display: block;}
@@ -191,16 +194,12 @@ li::marker {
 
 @media only screen and (max-width: 600px) {
     body {
-      background-color: lightblue;
       font-size: small;
       display: flex;
       flex-direction: column;
-      margin-left: 0px;
     }
     nav {
-        width: 100vw;
         height: 180px;
-        margin-left: 0px;
     }
     .Balk {
         width: 34.5%;
@@ -228,7 +227,6 @@ li::marker {
         margin-left: -10%;
     }
     .dropdown-content {
-        box-shadow: 10px 10px 5px lightskyblue;
         min-width: 0px;
         width: 25%;
     }
@@ -237,7 +235,6 @@ li::marker {
         width: 90%;
         margin-left: -10%;
         font-size: large;
-        box-shadow: 10px 10px 5px lightskyblue;
       }
     #zoekbalk {
         width: 75%;
@@ -246,12 +243,7 @@ li::marker {
         margin-left: -4%;
     }
     nav input[type=text] {
-        float: right;
-        padding: 6px;
-        border: none;
-        margin-top: 9px;
         margin-right: 5%;
-        font-size: 17px;
         width:90%;
     }
     .search-button {
@@ -279,14 +271,8 @@ li::marker {
     }
 
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
-    body {
-        background-color: mediumseagreen;
-        margin-left: 0px;
-    }
     nav {
-        width: 100vw;
         height: 106px;
-        margin-left: 0px;
     }
     #BalkHome {
         margin-left: -5%;
@@ -310,7 +296,6 @@ li::marker {
     .dropdown-content {
         width: 24%;
         min-width: 0px;
-        box-shadow: 10px 10px 5px lightgreen;
     }
     .dropdown-content a {
         padding: 9.5% 12.7%;
@@ -320,7 +305,6 @@ li::marker {
         width: 105%;
         margin-left: -10%;
         font-size: xx-large;
-        box-shadow: 10px 10px 5px lightgreen;
       }
     #zoekbalk {
         width: 50%;
@@ -328,12 +312,8 @@ li::marker {
         margin-right: 2%;
     }
     nav input[type=text] {
-        float: right;
         padding: 4px;
-        border: none;
-        margin-top: 9px;
         margin-right: 5%;
-        font-size: 17px;
         width:90%;
         height: 30px;
         border-radius: 30px;
@@ -362,13 +342,7 @@ li::marker {
 }
 
 @media only screen and (min-width: 1025px) {
-    body {
-        background-color: lightgrey;
-        margin-left: 0px;
-    }
     nav {
-        width: 100vw;
-        margin-left: 0px;
         height: 75px;
     }
     main {
@@ -409,20 +383,14 @@ li::marker {
         width: 105%;
         margin-left: -10%;
         font-size: 3vw;
-        box-shadow: 10px 10px 5px grey;
     }
     #zoekbalk {
         width: 28%;
         float: right;
-        padding-top: 10px;
+        padding-top: 15px;
     }
     nav input[type=text] {
-        float: right;
-        padding: 6px;
-        border: none;
-        margin-top: 9px;
         margin-right: 5%;
-        font-size: 17px;
         width:90%;
     }
     .search-button {
@@ -448,13 +416,7 @@ li::marker {
 }
 
 @media only screen and (min-width: 1440px) {
-    body {
-        background-color: #a9b4c2;
-        margin-left: 0px;
-    }
     nav {
-        width: 100vw;
-        margin-left: 0px;
         height: 75px;
     }
     main {
@@ -482,14 +444,12 @@ li::marker {
         width: 12.35%;
         margin-top: 65px;
         min-width: 0px;
-        box-shadow: 10px 10px 5px #66788F;
     }
     .dropdown-content a:hover {
         height: 75px;
         width: 105%;
         margin-left: -10%;
         font-size: 3vw;
-        box-shadow: 10px 10px 5px #66788F;
     }
     #zoekbalk {
         padding-top: 10px;
