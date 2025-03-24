@@ -199,7 +199,7 @@ li::marker {
     }
     nav {
         width: 100vw;
-        height: 190px;
+        height: 180px;
         margin-left: 0px;
     }
     .Balk {
@@ -369,6 +369,7 @@ li::marker {
     nav {
         width: 100vw;
         margin-left: 0px;
+        height: 75px;
     }
     main {
         margin: 0px 75px;
@@ -379,11 +380,14 @@ li::marker {
     .Balk a {
         text-align: center;
         width: 100%;
+        height: 55px;
         padding-left: 0.5%;
         padding-right: 0.5%;
+        padding-top: 10px;
     }
     #BALK {
         width: 100%;
+        padding-top: 10px;
     }
     #BALK a {
         padding: 0px 5px;
@@ -393,21 +397,24 @@ li::marker {
     }
     .dropdown {
         width: 12.5%;
+        height: 65px;
     }
     .dropdown-content {
         width: 12.15%;
         min-width: 0px;
+        margin-top: 65px;
     }
     .dropdown-content a:hover {
-        height: 50px;
+        height: 65px;
         width: 105%;
         margin-left: -10%;
-        font-size: xx-large;
+        font-size: 3vw;
         box-shadow: 10px 10px 5px grey;
     }
     #zoekbalk {
         width: 28%;
         float: right;
+        padding-top: 10px;
     }
     nav input[type=text] {
         float: right;
@@ -423,7 +430,7 @@ li::marker {
         width: 5%;
     }
     .Text {
-        font-size: larger;
+        font-size: x-large;
         text-align: center;
     }
     #text {
