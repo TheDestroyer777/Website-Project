@@ -29,6 +29,9 @@ nav {
     margin-left: 0px;
     margin-top: -18px;
 }
+.UnorderdList {
+    padding: 0%;
+}
 
 .Balk {
     list-style: none;
@@ -202,8 +205,7 @@ li::marker {
     }
     .Balk {
         width: 34.5%;
-        margin-right: 1%;
-        padding-right: 1%;
+        padding-right: 2%;
     }
     .Balk a {
         width: 100%;
@@ -211,8 +213,7 @@ li::marker {
     }
     .dropdown {
         width: 34.5%;
-        margin-right: 1%;
-        padding-right: 1%;
+        padding-right: 2%;
     }
     #BALK {
         width: 100%;
@@ -264,26 +265,22 @@ li::marker {
     nav {
         height: 106px;
     }
-    #BalkHome {
-        margin-left: -5%;
-    }
-    #BalkWeather {
-        margin-left: -5%;
-    }
     .Balk {
-        width: 25%;
+        width: 24%;
+        padding-right: 1%;
     }
     .Balk a {
         width: 100%;
     }
     .dropdown {
-        width: 25%;
+        width: 24%;
+        padding-right: 1%;
     }
     #BALK {
         width: 100%;
     }
     .dropdown-content {
-        width: 24%;
+        width: 25.5%;
     }
     .dropdown-content a {
         padding: 9.5% 12.7%;
@@ -295,9 +292,9 @@ li::marker {
         font-size: xx-large;
     }
     #zoekbalk {
-        width: 50%;
+        width: 49%;
         float: right;
-        margin-right: 2%;
+        margin-right: 1%;
     }
     nav input[type=text] {
         padding: 4px;
@@ -347,15 +344,12 @@ li::marker {
     #BALK a {
         padding: 0px 5px;
     }
-    #BalkHome {
-        margin-left: -4%;
-    }
     .dropdown {
         width: 12.5%;
         height: 65px;
     }
     .dropdown-content {
-        width: 12.15%;
+        width: 12.5%;
         margin-top: 65px;
     }
     .dropdown-content a:hover {
@@ -365,7 +359,7 @@ li::marker {
         font-size: 3vw;
     }
     #zoekbalk {
-        width: 28%;
+        width: 25%;
         float: right;
         padding-top: 15px;
     }
@@ -374,7 +368,7 @@ li::marker {
         width:90%;
     }
     .search-button {
-        margin-left: 20%;
+        margin-left: 18%;
         width: 5%;
     }
     .Text {
@@ -414,7 +408,7 @@ li::marker {
         height: 65px;
     }
     .dropdown-content {
-        width: 12.35%;
+        width: 12.5%;
         margin-top: 65px;
     }
     .dropdown-content a:hover {
