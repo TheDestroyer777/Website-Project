@@ -18,7 +18,8 @@ body {
     margin-left: 0px;
 } 
 
-::-webkit-scrollbar { /*scrollbar wegdoen maar wel nog kunnen scrollen*/
+/*scrollbar wegdoen maar wel nog kunnen scrollen*/
+::-webkit-scrollbar {
     display: none;
 }
 
@@ -67,23 +68,8 @@ nav {
     border: none;
     height: 40px;
     line-height: 40px;
-    list-style: none;
     padding: 0%;
-    float: left;
-    flex-wrap: wrap;
     font-family: Courier New;
-}
-
-#BALK a {
-    display: block;
-    width: 175px;
-    height: 40px;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-    line-height: 40px;
-    border: none;
-    font-size: 20px;
 }
 
 /*DROPDOWN BUTTON*/
@@ -147,8 +133,6 @@ li::marker {
 
 /*ZOEKBALK-KNOP*/
 .search-button {
-    background-color: transparent;
-    /*border-style: none;*/
     border-radius: 15px;
     position: absolute;
     margin-left: 18.3%;
@@ -289,6 +273,7 @@ li::marker {
     }
     .dropdown-content a {
         padding: 9.5% 12.7%;
+        font-size: large;
     }
     .dropdown-content a:hover {
         height: 40px;
