@@ -272,13 +272,12 @@ li::marker {
         font-size: 2vw;
     }
     .dropdown-content a {
-        padding: 9.5% 12.7%;
         font-size: large;
     }
     .dropdown-content a:hover {
-        height: 40px;
-        width: 95%;
-        margin-left: -10%;
+        height: 50px;
+        width: 100%;
+        margin-left: -5%;
         font-size: 5vw;
     }
     #zoekbalk {
@@ -349,8 +348,8 @@ li::marker {
         font-size: larger;
     }
     .dropdown-content a:hover {
-        height: 65px;
-        width: 105%;
+        height: 50px;
+        width: 100%;
         margin-left: -10%;
         font-size: 3vw;
     }
@@ -382,11 +381,10 @@ li::marker {
 @media only screen and (min-width: 1440px) {
     
     .dropdown-content a {
-        height: 40px;
         font-size: x-large;
     }
     .dropdown-content a:hover {
-        height: 75px;
+        width: 100%;
     }
     #zoekbalk {
         padding-top: 10px;
