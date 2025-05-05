@@ -197,7 +197,7 @@ li::marker {
     }
     .Balk a {
         width: 100%;
-        font-size: medium;
+        font-size: large;
     }
     li.dropdown{
         padding-right: 1%;
@@ -208,7 +208,7 @@ li::marker {
     }
     #BALK {
         width: 100%;
-        font-size: medium;
+        font-size: large;
     }
     .dropdown-content {
         width: 25%;
@@ -272,7 +272,7 @@ li::marker {
         font-size: 2vw;
     }
     .dropdown-content a {
-        font-size: large;
+        font-size: 3vw;
     }
     .dropdown-content a:hover {
         height: 50px;
