@@ -181,6 +181,12 @@ li::marker {
     text-align: center;
 }
 
+.weather {
+    margin-top: 20px;
+    padding: 50px;
+    background-color: gray;
+}
+
 @media only screen and (max-width: 600px) {
     body {
       font-size: small;
