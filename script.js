@@ -42,7 +42,7 @@ function ChangePageEnter() {
 
 
 
-/*Test https://github.com/WallNutss/esp32websockets-epucks*/
+/*Test https://github.com/WallNutss/esp32websockets-epucks */
 
  // Getting the button
     const control = document.querySelectorAll("button")

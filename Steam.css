@@ -9,6 +9,9 @@ footer {
     color: darkslategrey;
     bottom: 0px; 
 }
+#Footer-Controls {
+    margin-top: 300px;
+}
 
 body {
     font-family: Courier New;
@@ -181,6 +184,7 @@ li::marker {
     text-align: center;
 }
 
+/*Weather*/
 .weather {
     margin-top: 20px;
     padding: 50px;
@@ -205,7 +209,7 @@ li::marker {
         width: 100%;
         font-size: large;
     }
-    li.dropdown{
+    li.dropdown {
         padding-right: 1%;
         padding-left: 1%;
     }
@@ -410,11 +414,9 @@ li::marker {
     }
 }
 
+/*Test https://github.com/WallNutss/esp32websockets-epucks */
 
-
-/*Test https://github.com/WallNutss/esp32websockets-epucks*/
-
-#control button{
+#control button {
     background-color: #eee;
     border:none;
     border-radius:50%;
@@ -426,7 +428,7 @@ li::marker {
     cursor: pointer;
 }
 
-#control{
+#control {
     position:absolute;
     top: 30%;
     left: 45%;
@@ -434,15 +436,15 @@ li::marker {
     width:180px;
     border-radius:50%;
     text-align: center;
-
 }
+
 #control button:active {
-    background-color: red;
+    background-color: darkgray;
 }
 
 /* make control uncopy, so mobile can have ease of control */
 
-#control{
+#control {
         -webkit-touch-callout: none; /* iOS Safari */
           -webkit-user-select: none; /* Safari */
            -khtml-user-select: none; /* Konqueror HTML */
@@ -452,7 +454,7 @@ li::marker {
                                         supported by Chrome, Edge, Opera and Firefox */
 }
 
-#control::before{
+#control::before {
     content:"";
     position:absolute ;
     top:40px;
@@ -462,24 +464,23 @@ li::marker {
     background:#bbb;
     border-radius:22px;
 }
-#left{
+#left {
     left:0;
     top:50%;
     transform:translateY(-50%);
 }
-#right{
+#right {
     right:0;
     top:50%;
     transform:translateY(-50%);
 }
-#up{
+#up {
     position:absolute ;
     top:0;
     left:50%;
     transform:translateX(-50%) rotate(90deg);
 }
-#down{
-    
+#down {
     bottom:0;
     left:50%;
     transform:translateX(-50%) rotate(90deg);
@@ -490,25 +491,22 @@ li::marker {
     background: white;
     margin: 0 auto;
     cursor: pointer;
-    
 }
-
 
 @media only screen and (min-width: 100px) {
     #control {
         left: 28%;
-        
     }
-  }
+}
 
 @media only screen and (min-width: 400px) {
     #control {
         left: 35%; 
     }
-  }
+}
 
 @media only screen and (min-width: 700px) {
     #control {
         left: 43%; 
     }
-  }
+}
